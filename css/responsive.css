@@ -1,0 +1,28 @@
+@media screen and (max-width:1280px) {
+    .banner-login {
+        width: 50%;
+        padding: 0 20%;
+    }
+
+    .banner-login img {
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .banner-login {
+        display: none;
+    }
+
+    .login-form {
+        width: 100px;
+    }
+}
+
+
+@media (min-width:375px) {
+    div{
+      flex: 100%;
+    }
+  }
+  
