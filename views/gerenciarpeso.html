@@ -24,7 +24,7 @@
                 <ul>
                     <li>
                         <i class="fas fa-home"></i>
-                        <a href="#">Dashboard</a>
+                        <a href="dashboard.html">Dashboard</a>
                     </li>
                     <li>
                         <i class="fas fa-user"></i>
@@ -32,7 +32,7 @@
                     </li>
                     <li>
                         <i class="fas fa-balance-scale-right"></i>
-                        <a href="gerenciarpeso.html">Gerenciar Peso e altura</a>
+                        <a href="#">Gerenciar Peso e altura</a>
                     </li>
                     <li>
                         <i class="fas fa-heartbeat"></i>
@@ -60,11 +60,18 @@
              <a href="../index.html" class="logout"> <i class="fas fa-sign-out-alt"></i>Logout</a>         
          </header>
            <div class="main-content">
-              <p>dashboard</p>
+                <div class="panel-row">
+                    <button class="panel panel-50" a-view="cadastrarPeso" a-folder="peso" >Cadastrar peso</button>
+                    <button class="panel panel-50" a-view="vizualizarPeso" a-folder="peso" >Visualizar peso</button>
+                </div>
+                <div class="content" id="ajax-content">
+                    
+                </div>
            </div>
         </main>
     </div>
     <script src="../plugins/bootstrap-5.0.0-beta3-dist/js/bootstrap.min.js"> </script>
     <script src="../plugins/fontawesome-free-5.15.3-web/js/all.min.js"></script>
+    <script src="../js/ajax.js"></script>
 </body>
 </html>
