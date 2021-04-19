@@ -10,6 +10,6 @@ function fetchContent(el){
         })
         .then(html => {
             console.log(html)
-            content.innerHTML = '<p>OLA MUNDO</p>'
+            content.innerHTML = html
         })
 }
